@@ -1,0 +1,6 @@
+app:
+  stockreporting:
+    alphavantage:
+      baseurl: https://www.alphavantage.co/
+      listingStatusQuery: query?function=LISTING_STATUS&apikey=demo
+      dailyBasisQuery: query?function=TIME_SERIES_DAILY&symbol=IBM&outputsize=compact&apikey=9QOSN5KHVPWB6M7U
